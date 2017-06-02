@@ -283,7 +283,7 @@ ul li {
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
-  color:rgba(85,255,0,0.5);
+  color:rgba(255,192,0,1);
 }
 .navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
