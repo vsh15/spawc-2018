@@ -469,7 +469,22 @@ ul li {
 
 }
 
+.org_comm img {
+border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 200px;
 
+}
+
+.org_comm figcaption{
+font-size: 14px; 
+font-weight:400;
+text-align: center; 
+
+
+}
 .news-item{
   font-family:  sans-serif;
   font-size: 14px;
