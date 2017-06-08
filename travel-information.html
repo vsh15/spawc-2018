@@ -18,48 +18,36 @@
 </head>
 <body data-spy="scroll" data-target="#site-nav">
     
-    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
-        <div class="container" style="background-color: lightblue; width:100%">
+   <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom-pages" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header" >
-
-                <!-- logo -->
-                <div class="site-branding">
-                    <a class="logo" href="index.html">
-                        
-                        <!-- logo image  -->
-                        <img class = "enlarge" src="assets/images/logo.jpg" alt="Logo" width="35" height="35">
-
-                        SPAWC 2018
-                    </a>
-                </div>
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-            </div><!-- /.navbar-header -->
-
-
-            <div class="dropdown" id="navbar-items">
-                <ul class="nav navbar-nav navbar-right">
+            
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
 
                     <!-- navigation menu -->
-                   <li><a href="index.html">HOME</a></li>
+                    <li ><a href="index.html">HOME</a></li>
                    
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown"> Conference <span class="caret"></span></a>
+                    <li class="active"><a class="dropdown-toggle" data-toggle="dropdown" href="#" data-hover="dropdown"> Conference <span class="caret"></span></a>
                         <ul class="dropdown-menu" >
                           <li><a href="#">Organizing Committee</a></li>
-                          <li><a href="#">Technical Program Committee</a></li>
+                          <li class="active"><a href="#">Technical Program Committee</a></li>
                         </ul>  
                     </li>        
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Venue <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="Worksite.html">Workshop Site</a></li>
-                          <li><a href="Travel%20information.html">Travel Information</a></li>
-                          <li><a href="Places%20to%20visit.html">Places to Visit</a></li>
+                          <li><a href="#">Workshop Site</a></li>
+                          <li><a href="#">Travel Information</a></li>
+                          <li><a href="#">Places to Visit</a></li>
                         </ul>  
                     </li>               
                      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> For Authors <span class="caret"></span></a>
@@ -76,14 +64,19 @@
                           <li><a href="#">Special Sessions</a></li>
                         </ul>  
                     </li> 
+                   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Registration </a>
+                    </li> 
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Accomodation </a>
+                  </li> 
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Visa Information </a>
+                  </li> 
 
-                
 
                      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> MORE... <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Registration</a></li>
-                          <li><a href="#">Accomodation</a></li>
-                          <li><a href="#">Visa Information</a></li>
+                          
+                          
+                          
                           <li><a href="#">Sponsors</a></li>
                           <li><a href="#">Contact</a></li>
                         </ul>
@@ -92,9 +85,11 @@
                 
                 </ul>
             </div>
-        </div><!-- /.container -->
-        
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
+
     
     <!-- About Location -->
 <div class="section section-basic" id="kalamata" style=" padding-bottom:0px">
