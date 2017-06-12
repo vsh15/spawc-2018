@@ -302,7 +302,7 @@ ul li {
   position: relative;
   border-bottom: 1px solid transparent;
    padding: 15px 10px 10px 20px;
-   float: right;
+ 
 }
 
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
