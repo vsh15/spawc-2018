@@ -281,7 +281,7 @@ ul li {
   margin: 0;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #fff;
+  color: #aaa;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 400;
@@ -301,14 +301,14 @@ ul li {
   text-align: left;
   position: relative;
   border-bottom: 1px solid transparent;
-   padding: 15px 10px 0px 10px;
+   padding: 15px 10px 10px 20px;
    float: right;
 }
 
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.5);
-  color:rgba(255,192,0,1);
+color:rgba(255, 184, 77,1);
 }
 .navbar-custom .navbar-nav > .active > a {
   border-color: rgba(255, 255, 255, 0.5);
@@ -324,7 +324,7 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: rgb(128,128,128) !important;
+  background-color: rgb(0,0,0) !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -337,6 +337,7 @@ ul li {
 }
 .site-branding .logo {
   color: #fff;
+font-family: 'Lobster Two', cursive;
   font-size: 20px;
   font-weight: 700;
   margin-right: 2px;
@@ -345,9 +346,13 @@ ul li {
   text-transform: uppercase;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
-  text-decoration: none;
+  text-decoration: ;
 }
 
+.fancy{
+font-family: 'Lobster Two', cursive;
+
+}
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -445,6 +450,8 @@ ul li {
   width: 100%;
   background-color: #f3f3f3;
 }
+  
+
   .table-fixed tbody{
     height:200px;
     overflow-y:auto;
@@ -452,12 +459,14 @@ ul li {
     font-size: 14px;
     font-weight: 500;
     }
-  .table-fixed thead,tbody,tr,td,th{
-    display:block;
-  }
+  
+
+ 
+  
   .table-fixed td{
     color:#000;
   }
+
  .table-fixed th{
     
        background-color: #00145e;
@@ -465,7 +474,6 @@ ul li {
        text-align: center;
        border-color:#e67e22;
  }
-
 
   /*  Define the background color for all the ODD background rows  */
   .table-fixed tr:nth-child(odd){ 
@@ -735,4 +743,113 @@ text-align: center;
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
+}
+
+
+/*accomodation css*/
+/* Tabs panel */
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline;
+     zoom:1;
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.tab-pane{
+display: block;
+text-align: center;
+
+
+}
+.tab-pane img{
+  width: 190px;
+  height: 150px;
+}
+.sponsor-logo img{
+
+  padding: 10px 10px 10px 10px;
 }
