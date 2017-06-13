@@ -224,7 +224,7 @@ ul li {
 }
 
 .bg-image-1 {
-  background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -256,7 +256,7 @@ ul li {
 
 .enlarge:hover {
   transform:scale(2,2);
-  transform-origin: -10 0;
+  transform-origin: 2 2;
 }
 
 .navbar-custom {
@@ -848,4 +848,6 @@ text-align: center;
 .tab-pane img{
   width: 190px;
   height: 150px;
+  padding: 8px 8px 8px 8px;
+  border-radius: 20%;
 }
