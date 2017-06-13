@@ -264,7 +264,7 @@ ul li {
   margin: 0;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #0d0d0d;
+  background-color: #000;
 
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
