@@ -224,7 +224,7 @@ ul li {
 }
 
 .bg-image-1 {
-  background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;
+  background: url(../images/backgrounds/header.png) no-repeat center center/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -264,7 +264,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.5);
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -324,7 +324,7 @@ color:rgba(255, 184, 77,1);
 }
 
 .navbar-solid {
-  background-color: rgb(0,0,0) !important;
+  background-color: rgba(0,0,0,0.5) !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -344,6 +344,10 @@ font-family: 'Lobster Two', cursive;
 
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.logo img{
+  height: 40px;
+  width:  100px;
 }
 .site-branding .logo:focus, .site-branding .logo:hover {
   text-decoration: ;
