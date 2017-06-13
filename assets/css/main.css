@@ -324,7 +324,7 @@ color:rgba(255, 184, 77,1);
 }
 
 .navbar-solid {
-  background-color: rgba(0,0,0,0.5) !important;
+  background-color: #0d0d0d !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
